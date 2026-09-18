@@ -1,0 +1,1 @@
+"""Componenti core dell'applicazione."""

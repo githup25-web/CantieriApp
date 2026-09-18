@@ -1,0 +1,29 @@
+﻿
+Running Gradle task 'assembleDebug'...                          
+flutter : 
+In riga:1 car:80
++ ... id Studio\jbr"; cd ClienteApp; flutter build apk --debug 2>&1 | Out-F ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'C:\Users\youss\Desktop\CantieriApp\ClienteApp\android\settings.gradle' line: 20
+
+* What went wrong:
+Error resolving plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+> A problem occurred configuring project ':gradle'.
+   > Could not read workspace metadata from 
+C:\Users\youss\.gradle\caches\8.7\kotlin-dsl\accessors\601a285a0f3e5045f58a6baa6cfb4045\metadata.bin
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+Running Gradle task 'assembleDebug'...                              6,0s
+Gradle task assembleDebug failed with exit code 1

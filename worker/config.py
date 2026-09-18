@@ -1,0 +1,6 @@
+import os
+
+WORKER_SLEEP_SECONDS = 0.5
+MAX_ATTEMPTS = 5
+WORKER_NAME = os.getenv("WORKER_NUM", "worker-1")
+LOG_LEVEL = "INFO"

@@ -1,0 +1,1 @@
+"""Modelli MongoDB dell'applicazione."""
